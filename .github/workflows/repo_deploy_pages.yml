@@ -10,6 +10,7 @@ jobs:
         with:          
           repository: ${{ secrets.REPO }}          
           token: ${{ secrets.ACCESS_TOKEN }}
+          ref: main
 
 
       - name: Install and Build 🔧
